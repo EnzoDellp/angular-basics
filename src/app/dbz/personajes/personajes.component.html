@@ -1,0 +1,12 @@
+ <h3>Personjes</h3>
+    <hr>
+    <ul>
+        <li *ngFor="let personaje of personajes">
+           <!-- | Pipe graficar como numero -->
+        {{personaje.nombre}}   --  {{personaje.poder | number}}
+         
+         
+        </li>
+         
+
+    </ul>
